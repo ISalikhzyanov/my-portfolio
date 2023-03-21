@@ -1,0 +1,53 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+#root{
+    background-color: #222222;
+    position: relative;
+    color: #FFFFFF;
+    height: 100vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    max-height: 1080px;
+}
+
+.page{
+    height: 780px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 35px;
+}
+
+.form{
+    padding-top: 35px;
+}
+
+.page-header{
+    display: flex;
+    align-items: center;
+    background: #252525;
+    height: 229px;
+    position: relative;
+    width: 100vw;
+    transform: translateX(-50%);
+    left: 50%;
+    border-bottom: 2px solid #333333;
+    border-top: 2px solid #333333;
+    margin-bottom: 16px;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+
+    &__blue{
+        border-bottom: 2px solid #007CED;
+        width: 40%;
+    }
+
+    &__gray{
+        border-bottom: 2px solid #353535;
+        width: 60%;
+    }
+}

@@ -1,0 +1,49 @@
+.header{
+  height: 152px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    &__icon{
+      display: flex;
+      flex-shrink: 0;
+      width: 63px;
+      height: 63px;
+      border-radius: 100px;
+      background-color: #007CED;
+      align-items: center;
+      justify-content: center;
+    }
+    &__text{
+      font-family: Ribeye;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 35px;
+    }
+
+    &__header{
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+    &__link{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 35px;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+  }
+
+  &__links{
+    display: flex;
+    gap: 76px;
+  }
+}
